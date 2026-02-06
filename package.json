@@ -1,0 +1,60 @@
+{
+  "type": "module",
+  "name": "zyxapps-starter",
+  "version": "0.1.0",
+  "description": "Starter MVC web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/app.js",
+    "dev": "NODE_ENV=development nodemon ./src/app.js --watch .",
+    "stage": "NODE_ENV=staging node ./src/app.js",
+    "test": "NODE_ENV=testing "
+  },
+  "keywords": [
+    "zyxapps",
+    "web",
+    "mvc",
+    "starter",
+    "express",
+    "handlebars",
+    "postgres"
+  ],
+  "homepage": "https://github.com/miketerry-org/zyxapps-starter#readme",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/zyxapps-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miketerry-org/zyxapps-starter.git"
+  },
+  "license": "ISC",
+  "author": "Mike Terry",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "connect-redis": "^9.0.0",
+    "convert-json-env": "^1.1.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.4",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "ini": "^6.0.0",
+    "iovalkey": "^0.3.3",
+    "joi": "^18.0.2",
+    "json-to-env-converter": "^1.0.7",
+    "morgan": "^1.10.1",
+    "node-cache": "^5.1.2",
+    "pg": "^8.18.0",
+    "postmark": "^4.0.5",
+    "sequelize": "^6.37.7",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
