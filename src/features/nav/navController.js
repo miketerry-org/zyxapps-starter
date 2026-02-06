@@ -1,7 +1,7 @@
 // navController.js:
 
 export function getHomePage(req, res) {
-  res.send("home page");
+  res.render("home");
 }
 
 export function getAboutPage(req, res) {
